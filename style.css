@@ -1,0 +1,60 @@
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/aviones-en-el-cielo-10193620.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vw;
+    text-align: center;
+}
+
+.contenedor {
+    background-color: rgba(173, 216, 230, 60%);
+    width: auto;
+    height: 400px;
+    padding-top: 50px;
+    font-size: 20px;
+    border-radius: 10%;
+
+}
+    
+h1 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 50px; 
+    margin: 0px;
+    padding: 0px;
+}
+
+#entPrevias {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 5%;
+}
+
+#b-aumentar {
+    background-color: lightgreen;
+    border: 3px solid darkgreen;
+}
+
+#b-disminuir {
+    background-color: lightsalmon;
+    border: 3px solid darkred;
+}
+
+#b-save {
+    background-color: lightskyblue;
+    border: 3px solid darkcyan;
+}
+
+button:hover {
+    cursor: pointer;
+    color: whitesmoke;
+}
